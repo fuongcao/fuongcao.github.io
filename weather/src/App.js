@@ -76,7 +76,7 @@ class App extends React.Component {
   };
 
   setLocation = (e) => {
-    window.datalayer = window.datalayer || [];
+    window.dataLayer = window.dataLayer || [];
     window.datalayer.push({
       event: "setLocation",
     });
